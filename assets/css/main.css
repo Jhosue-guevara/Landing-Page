@@ -722,6 +722,30 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
+.hero-img img {
+  width: 170%;  /* Ajusta el tamaño a un 70% del contenedor */
+  max-width: none; /* Elimina el límite de tamaño máximo */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.hero-img {
+  display: flex;
+  justify-content: flex-end; /* Alinea la imagen a la derecha */
+  padding-right: 90px; /* Ajusta el espacio en el lado derecho */
+}
+
+.container {
+  padding-left: 8px;  /* Ajusta el padding del contenedor si es necesario */
+  padding-right: 15px;
+}
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Global Sections
 --------------------------------------------------------------*/
