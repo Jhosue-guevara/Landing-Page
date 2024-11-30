@@ -194,8 +194,117 @@ h6 {
   font-family: 'CeraRoundProBlack';
   font-size: 70px;
 }
+.titulo{
+  font-family: 'CeraRoundProBlack';
+  font-size: 50px;
+  color:white;
+}
+.parrafo1{
+  font-family: 'CeraRoundProRegular';
+  font-size: 40px;
+  text-align: justify;
+  color:white;
+}
 .header .logo {
   line-height: 1;
+}
+.btn-get-started {
+  display: inline-block; /* Hace que se comporte como un botón */
+  background-color: #218379; /* Color de fondo */
+  color: #FFFFFF; /* Color del texto (blanco en este caso) */
+
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 20px; /* Bordes redondeados */
+  text-decoration: none; /* Quita el subrayado del enlace */
+  font-family: 'CeraRoundProBold', sans-serif; /* Usa la fuente CeraRoundPro */
+  font-size: 20px; /* Tamaño del texto */
+  text-align: center; /* Centra el texto dentro del botón */
+  transition: background-color 0.3s ease; /* Animación para el cambio de color */
+}
+.btn-get-started:hover {
+  background-color: #45B5A9; /* Cambia el color al pasar el mouse */
+  color: #000000; /* Cambia el color del texto al pasar el mouse (negro en este caso) */
+
+}
+/* Efecto activo */
+.btn-get-started:active {
+  background-color: #2C625E; /* Color más oscuro al presionar */
+  color: #FFD700; /* Cambia el color del texto al presionar (dorado en este caso) */
+
+}
+/* Estilo general de las tarjetas */
+.icon-boxes {
+  
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+
+}
+
+.icon-box {
+  
+  width: 100%; /* Ancho completo del contenedor */
+  display: flex; /* Flexbox para alinear contenido */
+  flex-direction: column; /* Colocar el contenido en columna */
+  justify-content: flex-start; /* Alineación vertical desde arriba */
+  align-items: center; /* Centrado horizontal */
+}
+
+
+
+/* Título de las tarjetas */
+.icon-box h3 {
+  font-family: 'CeraRoundProBold', sans-serif; /* Fuente en negrita */
+  
+  text-align: center; /* Centrado */
+}
+
+/* Descripción con texto justificado */
+.icon-box p {
+  font-family: 'CeraRoundProRegular', sans-serif; /* Fuente regular */
+  text-align: justify; /* Texto justificado */
+
+}
+/* Fuente CeraRoundPro para el título principal (h2) */
+h2 {
+  font-family: 'CeraRoundProBold', sans-serif; /* Fuente en negrita */
+  font-size: 32px; /* Tamaño más grande */
+  color: #333; /* Color oscuro */
+  margin-bottom: 15px; /* Espaciado inferior */
+  text-align: left; /* Alineado a la izquierda */
+}
+.usadas {
+  font-family: 'CeraRoundProBlack', sans-serif; /* Fuente en negrita */
+  font-size: 32px; /* Tamaño más grande */
+  color: #333; /* Color oscuro */
+  margin-bottom: 15px; /* Espaciado inferior */
+  text-align: center; /* Alineado a la izquierda */
+}
+#hero {
+  min-height: 100vh; /* Hero ocupa toda la altura de la ventana */
+  padding: 80px 0; /* Espaciado interno superior e inferior */
+  display: flex; /* Centra verticalmente el contenido */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Fuente CeraRoundPro para el subtítulo (h3) */
+h3 {
+  font-family: 'CeraRoundProBold', sans-serif; /* Fuente en negrita */
+  font-size: 27px; /* Tamaño mediano */
+  color: #000000; /* Color verde llamativo */
+  margin-bottom: 10px; /* Espaciado inferior */
+  text-align: left; /* Alineado a la izquierda */
+}
+
+/* Fuente CeraRoundPro y justificación para el párrafo (p) */
+p {
+  font-family: 'CeraRoundProRegular', sans-serif; /* Fuente regular */
+  font-size: 20px; /* Tamaño estándar */
+  line-height: 1.8; /* Espaciado entre líneas */
+  text-align: justify; /* Texto justificado */
+  color: #666; /* Gris suave */
+  margin-bottom: 20px; /* Espaciado inferior */
 }
 
 .header .logo img {
@@ -779,6 +888,8 @@ h6 {
   padding-left: 8px;  /* Ajusta el padding del contenedor si es necesario */
   padding-right: 15px;
 }
+
+
 
 
 
