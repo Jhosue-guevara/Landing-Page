@@ -1,6 +1,4 @@
-Aquí tienes un README creativo para la landing page que estamos desarrollando, utilizando emojis para hacerlo más atractivo:
 
----
 
 # 🌟 HealTech Landing Page 🌟
 
