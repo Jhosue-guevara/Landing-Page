@@ -1859,6 +1859,7 @@ section,
 --------------------------------------------------------------*/
 .contact .info-item+.info-item {
   margin-top: 40px;
+  font-family: 'CeraRoundProMedium';
 }
 
 .contact .info-item i {
@@ -1873,6 +1874,7 @@ section,
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
   margin-right: 15px;
+  font-family: 'CeraRoundProMedium';
 }
 
 .contact .info-item h3 {
@@ -1880,21 +1882,25 @@ section,
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
+  font-family: 'CeraRoundProMedium';
 }
 
 .contact .info-item p {
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
+  font-family: 'CeraRoundProMedium';
 }
 
 .contact .info-item:hover i {
   background: var(--accent-color);
   color: var(--contrast-color);
+  font-family: 'CeraRoundProMedium';
 }
 
 .contact .php-email-form {
   height: 100%;
+  font-family: 'CeraRoundProMedium';
 }
 
 .contact .php-email-form input[type=text],
@@ -1907,18 +1913,21 @@ section,
   color: var(--default-color);
   background-color: color-mix(in srgb, var(--background-color), transparent 50%);
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  font-family: 'CeraRoundProMedium';
 }
 
 .contact .php-email-form input[type=text]:focus,
 .contact .php-email-form input[type=email]:focus,
 .contact .php-email-form textarea:focus {
   border-color: var(--accent-color);
+  font-family: 'CeraRoundProMedium';
 }
 
 .contact .php-email-form input[type=text]::placeholder,
 .contact .php-email-form input[type=email]::placeholder,
 .contact .php-email-form textarea::placeholder {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
+  font-family: 'CeraRoundProMedium';
 }
 
 .contact .php-email-form button[type=submit] {
@@ -1928,10 +1937,12 @@ section,
   padding: 10px 30px;
   transition: 0.4s;
   border-radius: 50px;
+  font-family: 'CeraRoundProMedium';
 }
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
+  font-family: 'CeraRoundProMedium';
 }
 
 /*--------------------------------------------------------------
