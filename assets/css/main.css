@@ -59,7 +59,7 @@
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #040677; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: #1F4687; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #1acc8d; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -1559,12 +1559,11 @@ section,
   background-color: var(--surface-color);
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  position: absolute;
   bottom: -50px;
   left: 20px;
   right: 20px;
   padding: 20px 15px;
-  overflow: hidden;
+  margin: 10px;
   transition: 0.5s;
 }
 
@@ -1768,6 +1767,7 @@ section,
   margin-top: 15px;
 }
 
+
 .faq .faq-container .faq-item {
   background-color: var(--surface-color);
   position: relative;
@@ -1810,7 +1810,7 @@ section,
 .faq .faq-container .faq-item .faq-content p {
   margin-bottom: 0;
   overflow: hidden;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .faq .faq-container .faq-item .faq-icon {
