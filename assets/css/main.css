@@ -192,12 +192,14 @@ h6 {
 }
 .sitename {
   font-family: 'CeraRoundProBlack';
-  font-size: 70px;
+  font-size: 30px;
+  text-align: center;
 }
 .titulo{
   font-family: 'CeraRoundProBlack';
-  font-size: 50px;
+  font-size: 10;
   color:white;
+  text-align: center;
 }
 .parrafo1{
   font-family: 'CeraRoundProRegular';
@@ -589,7 +591,13 @@ p {
     display: block;
   }
 }
-
+.descarga{
+  background-color: #1acc8d;
+  color: #ffffff;
+  font-family: 'CeraRoundProMedium';
+  padding: 10px;
+  border-radius:10%;
+}
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
@@ -599,7 +607,10 @@ p {
   font-size: 14px;
   position: relative;
 }
-
+.footerCenter{
+  text-align: center;
+  color:#ffffff;
+}
 .footer .footer-top {
   padding-top: 50px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
@@ -740,6 +751,9 @@ p {
 .footer .copyright {
   padding: 25px 0;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  font-family: 'CeraRoundProBold';
+  text-align: center;
+  justify-content: center;
 }
 
 .footer .copyright p {
@@ -749,6 +763,8 @@ p {
 .footer .credits {
   margin-top: 6px;
   font-size: 13px;
+  font-family: 'CeraRoundProBold';
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -1794,6 +1810,7 @@ section,
 .faq .faq-container .faq-item .faq-content p {
   margin-bottom: 0;
   overflow: hidden;
+  font-size: 15px;
 }
 
 .faq .faq-container .faq-item .faq-icon {
