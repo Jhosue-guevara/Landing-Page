@@ -1761,6 +1761,7 @@ section,
 
 .faq .content p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
+  font-size: 20px;
 }
 
 .faq .faq-container {
@@ -1810,7 +1811,7 @@ section,
 .faq .faq-container .faq-item .faq-content p {
   margin-bottom: 0;
   overflow: hidden;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .faq .faq-container .faq-item .faq-icon {
