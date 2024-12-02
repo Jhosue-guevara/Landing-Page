@@ -1,0 +1,2 @@
+# Ignorar el archivo email.js dentro de la carpeta forms
+/forms/email.js
