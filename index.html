@@ -606,85 +606,91 @@
     </div>
 
     </section><!-- /Faq Section -->
+ <!-- Sección de Contacto -->
+<section id="contact" class="contact section" style="font-family: 'TuTipografia', sans-serif;">
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+  <!-- Título de la Sección -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contacto</h2>
+    <div><span>Consulta nuestro</span> <span class="description-title">Contacto</span></div>
+  </div><!-- Fin del Título de la Sección -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <div><span>Check Our</span> <span class="description-title">Contact</span></div>
-      </div><!-- End Section Title -->
+  <div class="container" data-aos="fade" data-aos-delay="100">
 
-      <div class="container" data-aos="fade" data-aos-delay="100">
+    <div class="row gy-4">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
+      <div class="col-lg-4">
+        <!-- Información de contacto -->
+        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+          <i class="bi bi-geo-alt flex-shrink-0  ext-primary me-3 "></i>
+          <div>
+            <h5 class="mb-0">Dirección</h5>
+            <p class="mb-0">San Miguel, El Salvador</p>
           </div>
+        </div><!-- Fin del Ítem Dirección -->
 
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="row gy-4">
+        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-telephone flex-shrink-0 ext-primary me-3"></i>
+          <div>
+            <h5 class="mb-0">Teléfono</h5>
+            <p class="mb-0">+503 Undefined</p>
+          </div>
+        </div><!-- Fin del Ítem Teléfono -->
 
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
+        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-envelope flex-shrink-0 ext-primary me-3"></i>
+          <div>
+            <h5 class="mb-0">Correo Electrónico</h5>
+            <p class="mb-0">consultoriakompilo@gmail.com</p>
+          </div>
+        </div><!-- Fin del Ítem Correo -->
 
       </div>
 
-    </section><!-- /Contact Section -->
+      <div class="col-lg-8">
+        <!-- Formulario de Contacto -->
+        <form id="contact-form" class="email-form" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-3">
+
+            <div class="col-md-6">
+              <label for="name" class="form-label">Tu Nombre</label>
+              <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" required>
+            </div>
+
+            <div class="col-md-6">
+              <label for="email" class="form-label">Tu Correo Electrónico</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo Electrónico" required>
+            </div>
+
+            <div class="col-md-12">
+              <label for="subject" class="form-label">Asunto</label>
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+            </div>
+
+            <div class="col-md-12">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea class="form-control" name="message" id="message" rows="6" placeholder="Mensaje" required></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading" style="display: none;">Cargando...</div>
+              <div class="error-message" style="display: none;">Hubo un error al enviar tu mensaje. Inténtalo nuevamente.</div>
+              <div class="sent-message" style="display: none;">Tu mensaje ha sido enviado. ¡Gracias!</div>
+
+              <button type="submit" class="btn btn-primary mt-3">Enviar Mensaje</button>
+            </div>
+
+          </div>
+        </form>
+      </div><!-- Fin del Formulario de Contacto -->
+
+    </div>
+
+  </div>
+
+</section><!-- Fin de la Sección de Contacto -->
+
+
 
   </main>
 
@@ -717,6 +723,13 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+<!-- Incluye la biblioteca de EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<!-- Tu script personalizado -->
+<script src="forms/email.js"></script>
+
+  
 </body>
 
 </html>
