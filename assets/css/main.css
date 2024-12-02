@@ -103,6 +103,65 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
+/* Ejemplo de personalización */
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e9ecef;
+  color: #000;
+}
+
+.faq-icon {
+  color: #31877A; /* Color azul de Bootstrap */
+  padding: 5;
+  padding-right: 10;
+}
+/* Estilo para el ícono en estado colapsado */
+.accordion-button.collapsed .faq-icon {
+  color: #6c757d; /* Gris */
+  transition: color 0.3s ease;
+}
+
+/* Estilo para el ícono en estado expandido */
+.accordion-button:not(.collapsed) .faq-icon {
+  color: #31877A; /* Azul */
+  transition: color 0.3s ease;
+}
+
+/* Estilo para el texto de la pregunta en estado colapsado */
+.accordion-button.collapsed {
+  color: #000000; /* Gris */
+  transition: color 0.3s ease;
+}
+
+/* Estilo para el texto de la pregunta en estado expandido */
+.accordion-button:not(.collapsed) {
+  color: #31877A; /* Azul */
+  background-color: #e9ecef; /* Opcional: Cambiar el fondo al expandir */
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Opcional: Cambiar el color del ícono al pasar el ratón */
+.accordion-button:hover .faq-icon {
+  color: #31877A; /* Azul más oscuro */
+}
+/* Aplica la tipografía "Cera" a toda la sección de FAQs */
+#faq {
+  font-family: 'CeraRoundProBlack';
+}
+
+/* Aplica la tipografía "Cera" a los botones del acordeón */
+#faq .accordion-button {
+  font-family: 'CeraRoundProBold';
+}
+
+/* Aplica la tipografía "Cera" a los cuerpos de las respuestas */
+#faq .accordion-body {
+  font-family: 'CeraRoundProMedium';
+}
 
 a {
   color: var(--accent-color);
