@@ -75,8 +75,9 @@ Esta landing está optimizada para todos los dispositivos:
 ## 💬 Contacto
 
 ¿Tienes preguntas o necesitas ayuda? Contáctanos en:
-- 🌐 [healtech.com](https://healtech.com)
-- 📧 soporte@healtech.com
+- 🌐 [healtech](https://www.instagram.com/kompilo_/)
+- 📧 consulturakompilo@gmail.com
+
 
 ---
 
